@@ -1,0 +1,160 @@
+html{
+  scroll-behavior: smooth;
+}
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  padding-bottom: 25px;
+}
+.title-img{
+  transform: rotate(10deg);
+}
+  .navbar {
+    padding: 2rem 1rem !important;
+  }
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem !important;
+  color: #fff !important;
+
+}
+nav{
+  padding-bottom: 40px !important;
+}
+.nav-link{
+  font-family: 'Montserrat', sans-serif;
+  color: #e9ecefad !important;
+  padding: .5rem 1rem !important;
+}
+.abt{
+  padding:4% 0;
+}
+.abt-h1{
+  font-family: "Montserrat-Bold";
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height:1.5;
+  display:block;
+  padding-left: 1rem;
+  width: 90%;
+}
+.buttons{
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.btn-dark{
+  margin-right: 20px;
+}
+.iphone-img{
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  }
+#Features{
+  padding:7% 10%;
+  background-color: #fff;
+  position: relative;
+}
+.features-box{
+  text-align: center;
+}
+.feat-icons{
+  font-size: 60px;
+  color:#ef8172;
+  margin-bottom: 1rem;
+  }
+  .feat-icons:hover{
+    color: #ff4c68;
+  }
+  #testimonials{
+    background-color:#ef8172;
+   text-align: center;
+   color: #fff;
+  }
+  .testimonial-img{
+    width: 15%;
+    border-radius: 100%;
+    margin-right: 10px;
+  }
+  .testimonial-h1{
+  font-size: 2.5rem;
+  }
+  .carousel-item{
+    padding: 7% 15%;
+  }
+    #clients{
+      background-color:#ef8172;
+      text-align: center;
+      padding-bottom: 10px;
+}
+.imgs{
+  width:15%;
+  margin-right: 25px;
+
+}
+#pricing{
+  padding:7% 7%;
+
+}
+.pricing-header{
+  font-size: 3rem;
+  font-family: "Montserrat-Bold";
+  font-weight: 600;
+}
+.pricing-p{
+  font-family: 'Ubuntu', sans-serif;
+  padding-bottom: 30px;
+  line-height: 2;
+}
+.card-body{
+  text-align: center;
+}
+
+#bottom-sec{
+  background-color: #ff4c68;
+  padding: 7% 10%;
+  text-align: center;
+}
+.bottom-h1{
+  font-family: "Montserrat-Bold";
+  color: #fff;
+  font-size: 3.5rem;
+
+}
+.social-icon {
+  margin: 20px 10px;
+}
+footer{
+  padding: 3% 0;
+  text-align: center;
+
+}
+
+
+          /* RESPONSIVE */
+@media (max-width:1028px) {
+
+  #title{
+    text-align: center;
+    }
+    .navbar-brand{
+      margin: 0 !important;
+
+    }
+
+    .abt-h1{
+      width:100%;
+    }
+    .iphone-img{
+    transform: rotate(0deg);
+    position:static;
+    }
+    #Features{
+      position:static;
+    }
+
+
+
+}
